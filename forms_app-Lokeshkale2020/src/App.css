@@ -1,0 +1,96 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Page Layout */
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+button.primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+button.edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Form List */
+.form-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.form-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-list li button {
+  margin-left: 5px;
+}
+
+/* Form Controls */
+.form-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.form-controls input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Back Button */
+.back-button {
+  display: inline-block;
+  margin-bottom: 10px;
+  background: #ddd;
+  color: #333;
+}
