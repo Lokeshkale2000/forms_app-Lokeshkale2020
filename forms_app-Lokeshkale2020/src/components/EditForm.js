@@ -59,7 +59,7 @@ const EditForm = () => {
 
   return (
     <div className="container">
-      <button className="back-button" onClick={() => navigate("/")}>
+      <button className="back-button" onClick={() => navigate("/")} style={{background:"blue",color:"white"}}>
         Back
       </button>
       <h1>Edit Form</h1>
