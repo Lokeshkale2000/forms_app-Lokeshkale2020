@@ -42,7 +42,7 @@ const CreateForm = () => {
 
     try {
       const newForm = { label, inputs };
-      await axios.post("hhttps://form-builder-backend-peach.vercel.app/api/form", newForm);
+      await axios.post("https://form-builder-backend-peach.vercel.app/api/form", newForm);
       navigate("/");
     } catch (error) {
       console.error("Error saving form", error);
